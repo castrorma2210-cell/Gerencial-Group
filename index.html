@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerencial Group | Marketing Especializado en Salud</title>
+    <meta name="description" content="Estrategias de marketing digital diseñadas para profesionales de la salud. Atraé pacientes de forma constante con sistemas probados de captación.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- HEADER -->
+    <!-- ═══════════════════════════════════════════ -->
+    <header class="header" id="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <span class="logo-text">Gerencial</span><span class="logo-accent">Group</span>
+            </a>
+            <nav class="header__nav">
+                <a href="#problema" class="nav-link">Problema</a>
+                <a href="#solucion" class="nav-link">Solución</a>
+                <a href="#planes" class="nav-link">Planes</a>
+                <a href="#calendario" class="nav-link">Calendario</a>
+            </nav>
+            <a href="https://wa.me/1234567890" target="_blank" class="btn btn--header" id="header-cta">
+                Agendar asesoría
+            </a>
+            <button class="header__menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#problema" class="mobile-nav__link">Problema</a>
+        <a href="#solucion" class="mobile-nav__link">Solución</a>
+        <a href="#planes" class="mobile-nav__link">Planes</a>
+        <a href="#calendario" class="mobile-nav__link">Calendario</a>
+        <a href="https://wa.me/1234567890" target="_blank" class="btn btn--primary mobile-nav__cta">Agendar asesoría</a>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- HERO -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <div class="hero__gradient"></div>
+            <div class="hero__orb hero__orb--1"></div>
+            <div class="hero__orb hero__orb--2"></div>
+            <div class="hero__orb hero__orb--3"></div>
+            <div class="hero__grid-pattern"></div>
+        </div>
+        <div class="hero__content">
+            <div class="hero__badge reveal-up">
+                <span class="badge-dot"></span>
+                Marketing especializado en salud
+            </div>
+            <h1 class="hero__title reveal-up delay-1">
+                Entendemos tu mundo<br>
+                <span class="gradient-text">Construimos tu marca</span>
+            </h1>
+            <p class="hero__subtitle reveal-up delay-2">
+                Estrategias diseñadas para profesionales de la salud que quieren dejar de publicar sin resultados y empezar a atraer pacientes de forma constante.
+            </p>
+            <div class="hero__actions reveal-up delay-3">
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn--primary btn--glow" id="hero-cta-primary">
+                    <span class="btn__icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </span>
+                    Agendar asesoría por WhatsApp
+                </a>
+                <a href="#solucion" class="btn btn--outline" id="hero-cta-secondary">
+                    Ver cómo funciona
+                    <span class="btn__arrow">→</span>
+                </a>
+            </div>
+            <div class="hero__stats reveal-up delay-4">
+                <div class="stat">
+                    <span class="stat__number" data-count="150">0</span><span class="stat__plus">+</span>
+                    <span class="stat__label">Profesionales</span>
+                </div>
+                <div class="stat__divider"></div>
+                <div class="stat">
+                    <span class="stat__number" data-count="95">0</span><span class="stat__plus">%</span>
+                    <span class="stat__label">Satisfacción</span>
+                </div>
+                <div class="stat__divider"></div>
+                <div class="stat">
+                    <span class="stat__number" data-count="3">0</span><span class="stat__plus">x</span>
+                    <span class="stat__label">Más pacientes</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PROBLEMA -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--light" id="problema">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">El problema</span>
+                <h2 class="section__title">Tener redes activas<br><span class="gradient-text">no significa tener pacientes</span></h2>
+                <p class="section__subtitle">La mayoría de profesionales de la salud están publicando contenido… pero no tienen resultados reales.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card reveal-up delay-1" id="problem-1">
+                    <div class="problem-card__icon">
+                        <div class="shape shape--circle" style="--c1:#0B5ED7;--c2:#1DA1F2"></div>
+                    </div>
+                    <div class="problem-card__number">01</div>
+                    <h3 class="problem-card__title">Publicas contenido pero no recibes mensajes</h3>
+                    <div class="problem-card__line"></div>
+                </div>
+                <div class="problem-card reveal-up delay-2" id="problem-2">
+                    <div class="problem-card__icon">
+                        <div class="shape shape--triangle" style="--c1:#7B2CBF;--c2:#FF2D95"></div>
+                    </div>
+                    <div class="problem-card__number">02</div>
+                    <h3 class="problem-card__title">Tus seguidores no confían en ti</h3>
+                    <div class="problem-card__line"></div>
+                </div>
+                <div class="problem-card reveal-up delay-3" id="problem-3">
+                    <div class="problem-card__icon">
+                        <div class="shape shape--square" style="--c1:#FF7A00;--c2:#FFC300"></div>
+                    </div>
+                    <div class="problem-card__number">03</div>
+                    <h3 class="problem-card__title">No sabes qué decir para vender</h3>
+                    <div class="problem-card__line"></div>
+                </div>
+                <div class="problem-card reveal-up delay-4" id="problem-4">
+                    <div class="problem-card__icon">
+                        <div class="shape shape--hexagon" style="--c1:#FF2D95;--c2:#FF7A00"></div>
+                    </div>
+                    <div class="problem-card__number">04</div>
+                    <h3 class="problem-card__title">No tienes un sistema, solo improvisas</h3>
+                    <div class="problem-card__line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SOLUCIÓN -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--dark" id="solucion">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag section__tag--light">La solución</span>
+                <h2 class="section__title section__title--light">No gestionamos redes<br><span class="gradient-text">Construimos sistemas que generan pacientes</span></h2>
+                <p class="section__subtitle section__subtitle--light">Creamos una estructura completa que convierte tu contenido en una herramienta real de captación.</p>
+            </div>
+            <div class="solution-flow reveal-up">
+                <div class="flow-step" id="flow-content">
+                    <div class="flow-step__circle" style="--gradient: linear-gradient(135deg, #0B5ED7, #1DA1F2)">
+                        <span class="flow-step__icon">C</span>
+                    </div>
+                    <h3 class="flow-step__title">Contenido</h3>
+                    <p class="flow-step__desc">Estratégico y enfocado</p>
+                </div>
+                <div class="flow-connector">
+                    <div class="flow-connector__line"></div>
+                    <div class="flow-connector__arrow">→</div>
+                </div>
+                <div class="flow-step" id="flow-trust">
+                    <div class="flow-step__circle" style="--gradient: linear-gradient(135deg, #7B2CBF, #FF2D95)">
+                        <span class="flow-step__icon">T</span>
+                    </div>
+                    <h3 class="flow-step__title">Confianza</h3>
+                    <p class="flow-step__desc">Autoridad y credibilidad</p>
+                </div>
+                <div class="flow-connector">
+                    <div class="flow-connector__line"></div>
+                    <div class="flow-connector__arrow">→</div>
+                </div>
+                <div class="flow-step" id="flow-patients">
+                    <div class="flow-step__circle" style="--gradient: linear-gradient(135deg, #FF7A00, #FFC300)">
+                        <span class="flow-step__icon">P</span>
+                    </div>
+                    <h3 class="flow-step__title">Pacientes</h3>
+                    <p class="flow-step__desc">Flujo constante y predecible</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- SISTEMA INTERACTIVO -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--light" id="sistema">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">Nuestro sistema</span>
+                <h2 class="section__title">Un sistema de 3 fases<br><span class="gradient-text">diseñado para resultados</span></h2>
+            </div>
+            <div class="system-phases">
+                <div class="phase-card phase-card--attraction reveal-up delay-1" id="phase-attraction" data-phase="attraction">
+                    <div class="phase-card__header">
+                        <div class="phase-card__number">01</div>
+                        <div class="phase-card__badge" style="background: linear-gradient(135deg, #0B5ED7, #1DA1F2)">Fase 1</div>
+                    </div>
+                    <h3 class="phase-card__title">Atracción</h3>
+                    <div class="phase-card__content">
+                        <ul class="phase-card__list">
+                            <li>
+                                <span class="phase-dot" style="background:#0B5ED7"></span>
+                                Reels educativos
+                            </li>
+                            <li>
+                                <span class="phase-dot" style="background:#1DA1F2"></span>
+                                Contenido llamativo
+                            </li>
+                            <li>
+                                <span class="phase-dot" style="background:#0B5ED7"></span>
+                                Problemas del paciente
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="phase-card__expand-text">Click para ver más</div>
+                    <div class="phase-card__line" style="background: linear-gradient(90deg, #0B5ED7, #1DA1F2)"></div>
+                </div>
+
+                <div class="phase-connector-v">
+                    <svg width="40" height="60" viewBox="0 0 40 60">
+                        <path d="M20 0 L20 50 L12 42 M20 50 L28 42" stroke="url(#grad1)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <defs><linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#1DA1F2"/><stop offset="100%" style="stop-color:#7B2CBF"/></linearGradient></defs>
+                    </svg>
+                </div>
+
+                <div class="phase-card phase-card--trust reveal-up delay-2" id="phase-trust" data-phase="trust">
+                    <div class="phase-card__header">
+                        <div class="phase-card__number">02</div>
+                        <div class="phase-card__badge" style="background: linear-gradient(135deg, #7B2CBF, #FF2D95)">Fase 2</div>
+                    </div>
+                    <h3 class="phase-card__title">Confianza</h3>
+                    <div class="phase-card__content">
+                        <ul class="phase-card__list">
+                            <li>
+                                <span class="phase-dot" style="background:#7B2CBF"></span>
+                                Explicaciones simples
+                            </li>
+                            <li>
+                                <span class="phase-dot" style="background:#FF2D95"></span>
+                                Autoridad médica
+                            </li>
+                            <li>
+                                <span class="phase-dot" style="background:#7B2CBF"></span>
+                                Casos o ejemplos
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="phase-card__expand-text">Click para ver más</div>
+                    <div class="phase-card__line" style="background: linear-gradient(90deg, #7B2CBF, #FF2D95)"></div>
+                </div>
+
+                <div class="phase-connector-v">
+                    <svg width="40" height="60" viewBox="0 0 40 60">
+                        <path d="M20 0 L20 50 L12 42 M20 50 L28 42" stroke="url(#grad2)" stroke-width="2" fill="none" stroke-linecap="round"/>
+                        <defs><linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#FF2D95"/><stop offset="100%" style="stop-color:#FF7A00"/></linearGradient></defs>
+                    </svg>
+                </div>
+
+                <div class="phase-card phase-card--conversion reveal-up delay-3" id="phase-conversion" data-phase="conversion">
+                    <div class="phase-card__header">
+                        <div class="phase-card__number">03</div>
+                        <div class="phase-card__badge" style="background: linear-gradient(135deg, #FF7A00, #FFC300)">Fase 3</div>
+                    </div>
+                    <h3 class="phase-card__title">Conversión</h3>
+                    <div class="phase-card__content">
+                        <ul class="phase-card__list">
+                            <li>
+                                <span class="phase-dot" style="background:#FF7A00"></span>
+                                Llamados a la acción
+                            </li>
+                            <li>
+                                <span class="phase-dot" style="background:#FFC300"></span>
+                                Mensajes claros
+                            </li>
+                            <li>
+                                <span class="phase-dot" style="background:#FF7A00"></span>
+                                Invitación a agendar
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="phase-card__expand-text">Click para ver más</div>
+                    <div class="phase-card__line" style="background: linear-gradient(90deg, #FF7A00, #FFC300)"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PLANES -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--gradient" id="planes">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag section__tag--light">Planes</span>
+                <h2 class="section__title section__title--light">Elige el plan que<br><span class="gradient-text-light">impulse tu crecimiento</span></h2>
+                <p class="section__subtitle section__subtitle--light">Cada plan está diseñado para una etapa diferente de tu marca médica.</p>
+            </div>
+            <div class="plans-grid">
+                <!-- PLAN 1 -->
+                <div class="plan-card reveal-up delay-1" id="plan-1">
+                    <div class="plan-card__header">
+                        <span class="plan-card__tag">Plan 1</span>
+                        <h3 class="plan-card__name">Presencia Básica</h3>
+                        <div class="plan-card__price">
+                            <span class="plan-card__currency">$</span>
+                            <span class="plan-card__amount">999.999</span>
+                        </div>
+                        <p class="plan-card__desc">Para mantener tu marca activa y profesional</p>
+                    </div>
+                    <div class="plan-card__body">
+                        <ul class="plan-card__features">
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                8 piezas de contenido mensuales
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Diseño adaptado a tu especialidad médica
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Textos claros para educar a pacientes
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                3–5 historias semanales
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Organización visual del perfil
+                            </li>
+                            <li class="feature feature--locked">
+                                <span class="feature__icon feature__icon--lock">🔒</span>
+                                Sin estrategia de crecimiento
+                            </li>
+                            <li class="feature feature--locked">
+                                <span class="feature__icon feature__icon--lock">🔒</span>
+                                Sin optimización para atraer pacientes
+                            </li>
+                            <li class="feature feature--locked">
+                                <span class="feature__icon feature__icon--lock">🔒</span>
+                                Sin análisis de resultados
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plan-card__footer">
+                        <a href="https://wa.me/1234567890?text=Hola%2C%20me%20interesa%20el%20Plan%201%20-%20Presencia%20B%C3%A1sica" target="_blank" class="btn btn--plan" id="plan-1-cta">Elegir este plan</a>
+                    </div>
+                </div>
+
+                <!-- PLAN 2 (POPULAR) -->
+                <div class="plan-card plan-card--popular reveal-up delay-2" id="plan-2">
+                    <div class="plan-card__badge-popular">Más elegido</div>
+                    <div class="plan-card__glow"></div>
+                    <div class="plan-card__header">
+                        <span class="plan-card__tag plan-card__tag--popular">Plan 2</span>
+                        <h3 class="plan-card__name">Crecimiento Médico</h3>
+                        <div class="plan-card__price">
+                            <span class="plan-card__currency">$</span>
+                            <span class="plan-card__amount">1.850.000</span>
+                        </div>
+                        <p class="plan-card__desc">Empieza a atraer pacientes y generar confianza real</p>
+                    </div>
+                    <div class="plan-card__body">
+                        <ul class="plan-card__features">
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                12–14 piezas mensuales
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Estrategia de contenido enfocada en atraer pacientes
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Guiones para reels educativos y de autoridad
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Optimización completa del perfil
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Historias diarias con interacción
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Respuesta básica a mensajes
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Informe mensual
+                            </li>
+                            <li class="feature feature--locked">
+                                <span class="feature__icon feature__icon--lock">🔒</span>
+                                Sin automatización de respuestas
+                            </li>
+                            <li class="feature feature--locked">
+                                <span class="feature__icon feature__icon--lock">🔒</span>
+                                Sin seguimiento de interesados
+                            </li>
+                            <li class="feature feature--locked">
+                                <span class="feature__icon feature__icon--lock">🔒</span>
+                                Sin sistema estructurado de captación
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plan-card__footer">
+                        <a href="https://wa.me/1234567890?text=Hola%2C%20me%20interesa%20el%20Plan%202%20-%20Crecimiento%20M%C3%A9dico" target="_blank" class="btn btn--plan btn--plan-popular" id="plan-2-cta">Elegir este plan</a>
+                    </div>
+                </div>
+
+                <!-- PLAN 3 (PREMIUM) -->
+                <div class="plan-card plan-card--premium reveal-up delay-3" id="plan-3">
+                    <div class="plan-card__badge-premium">Premium</div>
+                    <div class="plan-card__header">
+                        <span class="plan-card__tag plan-card__tag--premium">Plan 3</span>
+                        <h3 class="plan-card__name">Autoridad & Pacientes</h3>
+                        <div class="plan-card__price">
+                            <span class="plan-card__currency">$</span>
+                            <span class="plan-card__amount">3.199.000</span>
+                        </div>
+                        <p class="plan-card__desc">Convierte tus redes en una fuente constante de pacientes</p>
+                    </div>
+                    <div class="plan-card__body">
+                        <ul class="plan-card__features">
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                16–20 piezas mensuales
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Estrategia de ventas por embudo
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Guiones diseñados para generar citas
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Historias diarias con enfoque en conversión
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Automatización de respuestas
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Clasificación de interesados
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Seguimiento
+                            </li>
+                            <li class="feature feature--included">
+                                <span class="feature__icon feature__icon--check">✓</span>
+                                Reunión mensual
+                            </li>
+                            <li class="feature feature--premium">
+                                <span class="feature__icon feature__icon--star">✨</span>
+                                Enfoque directo en generación de pacientes
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="plan-card__footer">
+                        <a href="https://wa.me/1234567890?text=Hola%2C%20me%20interesa%20el%20Plan%203%20-%20Autoridad%20%26%20Pacientes" target="_blank" class="btn btn--plan btn--plan-premium" id="plan-3-cta">Elegir este plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CALENDARIO -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--light" id="calendario">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">Calendario</span>
+                <h2 class="section__title">Así organizamos<br><span class="gradient-text">tu contenido semanal</span></h2>
+                <p class="section__subtitle">Cada día tiene un propósito. Nada es improvisado.</p>
+            </div>
+            <div class="calendar-legend reveal-up">
+                <div class="legend-item">
+                    <span class="legend-dot" style="background: #0B5ED7"></span>
+                    Atracción
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot" style="background: #7B2CBF"></span>
+                    Confianza
+                </div>
+                <div class="legend-item">
+                    <span class="legend-dot" style="background: #FF7A00"></span>
+                    Conversión
+                </div>
+            </div>
+            <div class="calendar-dashboard reveal-up" id="calendar-dashboard">
+                <!-- Lunes -->
+                <div class="cal-day">
+                    <div class="cal-day__header">Lunes</div>
+                    <div class="cal-day__cards">
+                        <div class="cal-card cal-card--attraction" data-tooltip="Objetivo: Atraer nuevos seguidores con contenido educativo">
+                            <div class="cal-card__type">Reel</div>
+                            <div class="cal-card__theme">"3 errores al cuidar tu piel"</div>
+                            <div class="cal-card__tag">Atracción</div>
+                        </div>
+                        <div class="cal-card cal-card--attraction" data-tooltip="Objetivo: Generar interacción y engagement">
+                            <div class="cal-card__type">Historia</div>
+                            <div class="cal-card__theme">Encuesta interactiva</div>
+                            <div class="cal-card__tag">Interacción</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Martes -->
+                <div class="cal-day">
+                    <div class="cal-day__header">Martes</div>
+                    <div class="cal-day__cards">
+                        <div class="cal-card cal-card--trust" data-tooltip="Objetivo: Educar y construir autoridad profesional">
+                            <div class="cal-card__type">Carrusel</div>
+                            <div class="cal-card__theme">"Qué es la ortodoncia invisible"</div>
+                            <div class="cal-card__tag">Confianza</div>
+                        </div>
+                        <div class="cal-card cal-card--trust" data-tooltip="Objetivo: Mostrar conocimiento y cercanía">
+                            <div class="cal-card__type">Historia</div>
+                            <div class="cal-card__theme">Tip del día</div>
+                            <div class="cal-card__tag">Confianza</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Miércoles -->
+                <div class="cal-day">
+                    <div class="cal-day__header">Miércoles</div>
+                    <div class="cal-day__cards">
+                        <div class="cal-card cal-card--attraction" data-tooltip="Objetivo: Posicionamiento y alcance orgánico">
+                            <div class="cal-card__type">Reel</div>
+                            <div class="cal-card__theme">"Mitos sobre blanqueamiento"</div>
+                            <div class="cal-card__tag">Atracción</div>
+                        </div>
+                        <div class="cal-card cal-card--conversion" data-tooltip="Objetivo: Generar mensajes directos">
+                            <div class="cal-card__type">Historia</div>
+                            <div class="cal-card__theme">CTA: Agenda tu cita</div>
+                            <div class="cal-card__tag">Conversión</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jueves -->
+                <div class="cal-day">
+                    <div class="cal-day__header">Jueves</div>
+                    <div class="cal-day__cards">
+                        <div class="cal-card cal-card--trust" data-tooltip="Objetivo: Generar confianza con contenido educativo">
+                            <div class="cal-card__type">Post</div>
+                            <div class="cal-card__theme">"Beneficios del chequeo anual"</div>
+                            <div class="cal-card__tag">Confianza</div>
+                        </div>
+                        <div class="cal-card cal-card--attraction" data-tooltip="Objetivo: Conectar con la audiencia">
+                            <div class="cal-card__type">Historia</div>
+                            <div class="cal-card__theme">Pregunta abierta</div>
+                            <div class="cal-card__tag">Interacción</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Viernes -->
+                <div class="cal-day">
+                    <div class="cal-day__header">Viernes</div>
+                    <div class="cal-day__cards">
+                        <div class="cal-card cal-card--conversion" data-tooltip="Objetivo: Convertir seguidores en pacientes">
+                            <div class="cal-card__type">Reel</div>
+                            <div class="cal-card__theme">"¿Cuándo fue tu última consulta?"</div>
+                            <div class="cal-card__tag">Conversión</div>
+                        </div>
+                        <div class="cal-card cal-card--conversion" data-tooltip="Objetivo: Incentivar la acción directa">
+                            <div class="cal-card__type">Historia</div>
+                            <div class="cal-card__theme">Testimonio + CTA</div>
+                            <div class="cal-card__tag">Conversión</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sábado -->
+                <div class="cal-day">
+                    <div class="cal-day__header">Sábado</div>
+                    <div class="cal-day__cards">
+                        <div class="cal-card cal-card--trust" data-tooltip="Objetivo: Humanizar la marca del profesional">
+                            <div class="cal-card__type">Post</div>
+                            <div class="cal-card__theme">Detrás de cámaras</div>
+                            <div class="cal-card__tag">Confianza</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Domingo -->
+                <div class="cal-day">
+                    <div class="cal-day__header">Domingo</div>
+                    <div class="cal-day__cards">
+                        <div class="cal-card cal-card--attraction" data-tooltip="Objetivo: Preparar la semana con engagement">
+                            <div class="cal-card__type">Historia</div>
+                            <div class="cal-card__theme">Reflexión de salud</div>
+                            <div class="cal-card__tag">Atracción</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- EJECUCIÓN -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--dark" id="ejecucion">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag section__tag--light">Proceso</span>
+                <h2 class="section__title section__title--light">Cómo lo<br><span class="gradient-text">hacemos realidad</span></h2>
+            </div>
+            <div class="timeline reveal-up">
+                <div class="timeline__line"></div>
+                <div class="timeline__step" id="step-1">
+                    <div class="timeline__dot" style="--dot-color: #0B5ED7">
+                        <span>1</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Planificación estratégica</h3>
+                        <p>Analizamos tu marca, tu audiencia y definimos los objetivos claros de crecimiento.</p>
+                    </div>
+                </div>
+                <div class="timeline__step" id="step-2">
+                    <div class="timeline__dot" style="--dot-color: #7B2CBF">
+                        <span>2</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Creación de contenido</h3>
+                        <p>Diseñamos piezas visuales y guiones que comunican con precisión tu valor como profesional.</p>
+                    </div>
+                </div>
+                <div class="timeline__step" id="step-3">
+                    <div class="timeline__dot" style="--dot-color: #FF2D95">
+                        <span>3</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Publicación organizada</h3>
+                        <p>Cada pieza se publica en el momento exacto con un propósito definido.</p>
+                    </div>
+                </div>
+                <div class="timeline__step" id="step-4">
+                    <div class="timeline__dot" style="--dot-color: #FF7A00">
+                        <span>4</span>
+                    </div>
+                    <div class="timeline__content">
+                        <h3>Optimización continua</h3>
+                        <p>Medimos resultados y ajustamos la estrategia para maximizar tu captación de pacientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PÁGINA WEB -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--light" id="web">
+        <div class="container">
+            <div class="web-section reveal-up">
+                <div class="web-section__content">
+                    <span class="section__tag">Valor extra</span>
+                    <h2 class="section__title">Tu página no es solo diseño<br><span class="gradient-text">Es una herramienta de conversión</span></h2>
+                    <ul class="web-features">
+                        <li class="web-feature">
+                            <div class="web-feature__icon" style="--c: #0B5ED7">
+                                <div class="diamond"></div>
+                            </div>
+                            <span>Estructura estratégica</span>
+                        </li>
+                        <li class="web-feature">
+                            <div class="web-feature__icon" style="--c: #7B2CBF">
+                                <div class="diamond"></div>
+                            </div>
+                            <span>Botones claros</span>
+                        </li>
+                        <li class="web-feature">
+                            <div class="web-feature__icon" style="--c: #FF7A00">
+                                <div class="diamond"></div>
+                            </div>
+                            <span>Flujo optimizado</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="web-section__mockup">
+                    <div class="mockup-browser">
+                        <div class="mockup-browser__bar">
+                            <span class="mockup-dot mockup-dot--red"></span>
+                            <span class="mockup-dot mockup-dot--yellow"></span>
+                            <span class="mockup-dot mockup-dot--green"></span>
+                            <span class="mockup-url">gerencialgroup.com</span>
+                        </div>
+                        <div class="mockup-browser__body">
+                            <div class="mockup-block mockup-block--header"></div>
+                            <div class="mockup-block mockup-block--hero"></div>
+                            <div class="mockup-grid-mock">
+                                <div class="mockup-block mockup-block--card"></div>
+                                <div class="mockup-block mockup-block--card"></div>
+                                <div class="mockup-block mockup-block--card"></div>
+                            </div>
+                            <div class="mockup-block mockup-block--cta"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- PUBLICIDAD -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--accent" id="publicidad">
+        <div class="container">
+            <div class="ads-section reveal-up">
+                <div class="ads-content">
+                    <h2 class="ads-title">El contenido construye confianza</h2>
+                    <div class="ads-flow">
+                        <div class="ads-flow__item">
+                            <div class="ads-flow__circle" style="--bg: linear-gradient(135deg, #0B5ED7, #7B2CBF)">
+                                <span>Contenido</span>
+                            </div>
+                        </div>
+                        <div class="ads-flow__arrow">
+                            <svg width="60" height="24" viewBox="0 0 60 24">
+                                <path d="M0 12 L50 12 M42 4 L50 12 L42 20" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="ads-flow__item">
+                            <div class="ads-flow__plus">+</div>
+                        </div>
+                        <div class="ads-flow__arrow">
+                            <svg width="60" height="24" viewBox="0 0 60 24">
+                                <path d="M0 12 L50 12 M42 4 L50 12 L42 20" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="ads-flow__item">
+                            <div class="ads-flow__circle" style="--bg: linear-gradient(135deg, #FF7A00, #FFC300)">
+                                <span>Publicidad</span>
+                            </div>
+                        </div>
+                        <div class="ads-flow__arrow">
+                            <svg width="60" height="24" viewBox="0 0 60 24">
+                                <path d="M0 12 L50 12 M42 4 L50 12 L42 20" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="ads-flow__item">
+                            <div class="ads-flow__circle ads-flow__circle--result" style="--bg: linear-gradient(135deg, #FF2D95, #FF7A00)">
+                                <span>Resultados</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="ads-subtitle">La publicidad acelera los resultados</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- MÉTRICAS (DASHBOARD) -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--light" id="metricas">
+        <div class="container">
+            <div class="section__header reveal-up">
+                <span class="section__tag">Resultados</span>
+                <h2 class="section__title">Métricas que<br><span class="gradient-text">hablan por sí solas</span></h2>
+            </div>
+            <div class="metrics-grid reveal-up">
+                <div class="metric-card" id="metric-1">
+                    <div class="metric-card__icon" style="--mc: #0B5ED7">
+                        <div class="metric-ring">
+                            <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" stroke="#0B5ED7" stroke-width="4" fill="none" stroke-dasharray="120 163" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <div class="metric-card__value">
+                        <span class="counter" data-target="250">0</span><span class="metric-suffix">%</span>
+                    </div>
+                    <div class="metric-card__label">Alcance promedio</div>
+                    <div class="metric-card__bar"><div class="metric-bar-fill" style="--fill: 75%; --bar-color: #0B5ED7"></div></div>
+                </div>
+                <div class="metric-card" id="metric-2">
+                    <div class="metric-card__icon" style="--mc: #7B2CBF">
+                        <div class="metric-ring">
+                            <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" stroke="#7B2CBF" stroke-width="4" fill="none" stroke-dasharray="100 163" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <div class="metric-card__value">
+                        <span class="counter" data-target="180">0</span><span class="metric-suffix">%</span>
+                    </div>
+                    <div class="metric-card__label">Interacciones</div>
+                    <div class="metric-card__bar"><div class="metric-bar-fill" style="--fill: 65%; --bar-color: #7B2CBF"></div></div>
+                </div>
+                <div class="metric-card" id="metric-3">
+                    <div class="metric-card__icon" style="--mc: #FF2D95">
+                        <div class="metric-ring">
+                            <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" stroke="#FF2D95" stroke-width="4" fill="none" stroke-dasharray="130 163" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <div class="metric-card__value">
+                        <span class="counter" data-target="320">0</span><span class="metric-suffix">%</span>
+                    </div>
+                    <div class="metric-card__label">Crecimiento</div>
+                    <div class="metric-card__bar"><div class="metric-bar-fill" style="--fill: 85%; --bar-color: #FF2D95"></div></div>
+                </div>
+                <div class="metric-card" id="metric-4">
+                    <div class="metric-card__icon" style="--mc: #FF7A00">
+                        <div class="metric-ring">
+                            <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="26" stroke="#FF7A00" stroke-width="4" fill="none" stroke-dasharray="140 163" stroke-linecap="round"/></svg>
+                        </div>
+                    </div>
+                    <div class="metric-card__value">
+                        <span class="counter" data-target="45">0</span><span class="metric-suffix">+</span>
+                    </div>
+                    <div class="metric-card__label">Leads mensuales</div>
+                    <div class="metric-card__bar"><div class="metric-bar-fill" style="--fill: 90%; --bar-color: #FF7A00"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- CTA FINAL -->
+    <!-- ═══════════════════════════════════════════ -->
+    <section class="section section--cta" id="cta-final">
+        <div class="container">
+            <div class="cta-final reveal-up">
+                <h2 class="cta-final__title">¿Listo para transformar<br><span class="gradient-text-light">tu presencia digital?</span></h2>
+                <p class="cta-final__text">Agenda tu asesoría gratuita y descubre qué plan se adapta a tus necesidades.</p>
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn--primary btn--glow btn--large" id="final-cta">
+                    <span class="btn__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </span>
+                    Agendar asesoría gratuita
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- FOOTER -->
+    <!-- ═══════════════════════════════════════════ -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#" class="header__logo">
+                        <span class="logo-text">Gerencial</span><span class="logo-accent">Group</span>
+                    </a>
+                    <p class="footer__tagline">Marketing especializado en salud.<br>Construimos sistemas que generan pacientes.</p>
+                </div>
+                <div class="footer__links">
+                    <h4>Navegación</h4>
+                    <a href="#problema">El problema</a>
+                    <a href="#solucion">La solución</a>
+                    <a href="#planes">Planes</a>
+                    <a href="#calendario">Calendario</a>
+                    <a href="#metricas">Resultados</a>
+                </div>
+                <div class="footer__contact">
+                    <h4>Contacto</h4>
+                    <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
+                    <a href="mailto:info@gerencialgroup.com">info@gerencialgroup.com</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 Gerencial Group. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- WHATSAPP FLOATING BUTTON -->
+    <!-- ═══════════════════════════════════════════ -->
+    <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float" id="whatsapp-float" aria-label="Chat por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="whatsapp-float__pulse"></span>
+    </a>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!-- AI CHAT BOT -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div class="chat-toggle" id="chat-toggle" aria-label="Abrir asistente virtual">
+        <div class="chat-toggle__icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        </div>
+        <span class="chat-toggle__badge">1</span>
+    </div>
+
+    <div class="chat-window" id="chat-window">
+        <div class="chat-window__header">
+            <div class="chat-window__avatar">
+                <span>GG</span>
+            </div>
+            <div class="chat-window__info">
+                <h4>Asistente Gerencial Group</h4>
+                <span class="chat-window__status">
+                    <span class="status-dot"></span>
+                    En línea
+                </span>
+            </div>
+            <button class="chat-window__close" id="chat-close" aria-label="Cerrar chat">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+        </div>
+        <div class="chat-window__body" id="chat-body">
+            <!-- Messages will be inserted here by JS -->
+        </div>
+        <div class="chat-window__options" id="chat-options">
+            <!-- Options will be inserted here by JS -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
