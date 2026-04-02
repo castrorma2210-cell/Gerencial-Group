@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
             waBtn.className = 'chat-option';
             waBtn.textContent = '💬 Hablar con un asesor';
             waBtn.addEventListener('click', () => {
-                window.open('https://wa.me/573128417585?text=Hola%2C%20quiero%20agendar%20una%20asesor%C3%ADa%20para%20crecer%20mis%20redes', '_blank');
+                window.open('https://wa.me/573128417585?text=Hola%20%F0%9F%91%8B%20quiero%20agendar%20una%20asesor%C3%ADa%20para%20crecer%20mis%20redes', '_blank');
             });
             chatOptions.appendChild(waBtn);
 
