@@ -111,48 +111,62 @@
                     <p style="margin-top:16px;">Esto provoca que el contenido no tenga dirección, no conecte con el paciente ideal y no genere acciones reales como mensajes, citas o consultas.</p>
                 </div>
             </div>
-            <div class="problem-grid">
-                <div class="problem-card reveal-up delay-1" id="problem-1">
-                    <div class="problem-card__icon">
-                        <div class="shape shape--circle" style="--c1:#0B5ED7;--c2:#1DA1F2"></div>
-                    </div>
-                    <div class="problem-card__number">01</div>
-                    <h3 class="problem-card__title">Publicas contenido pero no recibes mensajes</h3>
-                    <div class="problem-card__line"></div>
+            <div class="chaos-board reveal-up delay-1">
+                
+                <!-- Conexiones rotas (Chaos lines) -->
+                <svg class="chaos-lines" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Line 1: Incompleta hacia la nada -->
+                    <path class="chaos-path" d="M 200 120 Q 350 80 480 180" />
+                    <!-- Line 2: Cortada a la mitad y débil -->
+                    <path class="chaos-path chaos-path--weak" d="M 400 230 C 500 280 450 350 320 380" />
+                    <!-- Line 3: De lado a lado, discontinua y apuntando hacia abajo -->
+                    <path class="chaos-path chaos-path--broken" d="M 800 180 Q 750 300 850 480" />
+                    <!-- Line 4: Linea recta que no llega a la cuarta tarjeta -->
+                    <path class="chaos-path" d="M 250 400 L 400 500" stroke-dasharray="8 8" />
+                </svg>
+
+                <!-- Elementos Flotantes (Z-index superior) -->
+                <div class="chaos-lbl chaos-lbl-1">Sin estrategia</div>
+                <div class="chaos-lbl chaos-lbl-2">Sin dirección</div>
+                <div class="chaos-lbl chaos-lbl-3">Sin conversión</div>
+                
+                <!-- Tarjeta 1: Desalineada levemente, vibra suave -->
+                <div class="chaos-card chaos-c1">
+                    <div class="chaos-card__icon"></div>
+                    <div class="chaos-card__number">01</div>
+                    <h3 class="chaos-card__title">Publicas contenido pero no recibes mensajes</h3>
                 </div>
-                <div class="problem-card reveal-up delay-2" id="problem-2">
-                    <div class="problem-card__icon">
-                        <div class="shape shape--triangle" style="--c1:#7B2CBF;--c2:#FF2D95"></div>
-                    </div>
-                    <div class="problem-card__number">02</div>
-                    <h3 class="problem-card__title">Tus seguidores no confían en ti</h3>
-                    <div class="problem-card__line"></div>
+
+                <!-- Tarjeta 2: Ligeramente más grande pero mal posicionada -->
+                <div class="chaos-card chaos-c2">
+                    <div class="chaos-card__icon"></div>
+                    <div class="chaos-card__number">02</div>
+                    <h3 class="chaos-card__title">Tus seguidores no confían en ti</h3>
                 </div>
-                <div class="problem-card reveal-up delay-3" id="problem-3">
-                    <div class="problem-card__icon">
-                        <div class="shape shape--square" style="--c1:#FF7A00;--c2:#FFC300"></div>
-                    </div>
-                    <div class="problem-card__number">03</div>
-                    <h3 class="problem-card__title">No sabes qué decir para vender</h3>
-                    <div class="problem-card__line"></div>
+
+                <!-- Tarjeta 3: Opacidad reducida, debilidad estratégica -->
+                <div class="chaos-card chaos-c3">
+                    <div class="chaos-card__icon"></div>
+                    <div class="chaos-card__number">03</div>
+                    <h3 class="chaos-card__title">No sabes qué decir para vender</h3>
                 </div>
-                <div class="problem-card reveal-up delay-4" id="problem-4">
-                    <div class="problem-card__icon">
-                        <div class="shape shape--hexagon" style="--c1:#FF2D95;--c2:#FF7A00"></div>
-                    </div>
-                    <div class="problem-card__number">04</div>
-                    <h3 class="problem-card__title">No tienes un sistema, solo improvisas</h3>
-                    <div class="problem-card__line"></div>
+
+                <!-- Tarjeta 4: Borde cortado, inestable, falta la base -->
+                <div class="chaos-card chaos-c4">
+                    <div class="chaos-card__icon"></div>
+                    <div class="chaos-card__number">04</div>
+                    <h3 class="chaos-card__title">No tienes un sistema, solo improvisas</h3>
                 </div>
+
             </div>
             <div class="reveal-up delay-4" style="text-align: center; margin-top: 60px; max-width: 800px; margin-left: auto; margin-right: auto;">
-                <h3 style="font-family: var(--font-display); font-size: 1.6rem; font-weight: 800; color: var(--black); margin-bottom: 20px; line-height: 1.4;">
-                    No es un problema de frecuencia<br>
-                    <span class="gradient-text">Es un problema de estrategia, enfoque y ejecución</span>
-                </h3>
-                <p style="font-size: 1.1rem; color: var(--gray-600); line-height: 1.7;">
-                    Sin una arquitectura de contenido, cada publicación actúa de forma aislada, lo que impide construir autoridad progresiva y una relación de confianza con el paciente.
+                <p style="font-size: 1.15rem; color: var(--gray-600); line-height: 1.7; margin-bottom: 40px;">
+                    Aunque publiques constantemente, sin una estructura estratégica, cada acción pierde impacto y no genera resultados reales.
                 </p>
+                <h3 style="font-family: var(--font-display); font-size: 1.8rem; font-weight: 800; color: var(--black); line-height: 1.4; padding: 32px; background: rgba(11,94,215,0.05); border-radius: var(--radius); border: 1px solid rgba(11,94,215,0.1);">
+                    Publicar sin estrategia no es crecimiento<br>
+                    <span class="gradient-text">Es repetición sin resultados</span>
+                </h3>
             </div>
         </div>
     </section>
