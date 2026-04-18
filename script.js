@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const ctaBtn = document.createElement('button');
             ctaBtn.className = 'chat-option';
             ctaBtn.textContent = '👉 Ver el plan recomendado';
-            ctaBtn.style.background = 'linear-gradient(135deg, #0B5ED7, #7B2CBF)';
+            ctaBtn.style.background = 'linear-gradient(135deg, #1F3A5F, #2F5D8A)';
             ctaBtn.style.color = '#fff';
             ctaBtn.style.border = 'none';
             ctaBtn.style.fontWeight = '700';
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
             waBtn.className = 'chat-option';
             waBtn.textContent = '💬 Hablar con un asesor';
             waBtn.addEventListener('click', () => {
-                window.open('https://wa.me/573128417585?text=Hola%20%F0%9F%91%8B%20quiero%20agendar%20una%20asesor%C3%ADa%20para%20crecer%20mis%20redes', '_blank');
+                window.open('https://wa.me/573128417585?text=Hola 👋 quiero agendar una asesoría para crecer mis redes', '_blank');
             });
             chatOptions.appendChild(waBtn);
 
